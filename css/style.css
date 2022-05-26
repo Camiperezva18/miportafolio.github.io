@@ -1,0 +1,208 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  h2 {
+    font-size: 54px;
+    text-transform: uppercase;
+    color: #303030;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 29px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+  }  
+  .jumbotron {
+    background-color: rgb(242, 199, 206);
+    color: #fff;
+    padding: 100px 25px;
+    font-family: 'Patrick Hand', cursive;
+    align-content: center;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color:  rgb(236, 109, 194);
+    font-size: 50px;
+  }
+  .logo {
+    color:  rgb(242, 199, 206);
+    font-size: 200px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+ 
+  
+  .navbar {
+    margin-bottom: 0;
+    background-color: white;
+    z-index: 9999;
+    border: 0;
+    font-size: 20px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: 'Patrick Hand', cursive;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: black  !important;
+  }
+  .navbar  .navbar-brand:hover
+  {
+    background-color: #f8d2ed !important;
+    font-size: 1em;
+    padding: .8em 1em;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+    background-color: #f8d2ed !important;
+    
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+  .imagen1
+  {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 120px;
+    margin-right: auto;
+    display: block;
+    float: left;
+    
+  }
+  .enlaces-portafolio
+  {
+    line-height: 1.375em;
+    color: #303030 !important;
+    font-weight: 400;
+    margin-left: 130px;
+  }
+  .enlaces-portafolio:hover
+  {
+    color: beige;
+    background-color:#f8d2ed;
+    font-size: 1em;
+    padding: .8em 1em;
+    border-radius: 10px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border-radius: 10px;
+  }
+  .thumbnail p {
+    margin-top: 15px;
+    color: #555;
+  }
+  .imagenes-estudio
+  {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
+  }
+  .texto-movimiento
+  {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-direction: alternate;
+  }
+  @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.fotos
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 90px;
+}
+.hit1
+{
+  width: 400px;
+  height: 400px;
+}
+.hit2
+{
+  width: 400px;
+  height: 400px;
+}
+.viñedo
+{
+  width: 400px;
+  height: 400px;
+}
